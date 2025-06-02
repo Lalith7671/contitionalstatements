@@ -11,8 +11,8 @@ namespace contitionalstatements
     {
         static void Main(string[] args)
         {
-           // ifstatement();
-            //ifelse();
+            ifstatement();
+            ifelse();
             elseifs();
 
         }
@@ -24,7 +24,7 @@ namespace contitionalstatements
             int b = Convert.ToInt32(Console.ReadLine());
             if (a > b)
             {
-                Console.WriteLine("a value is greater then b");
+                Console.WriteLine("{0} is greater then {1}",a,b);
             }
         }
         private static void ifelse()
@@ -35,11 +35,11 @@ namespace contitionalstatements
             int b = Convert.ToInt32(Console.ReadLine());
             if (a > b)
             {
-                Console.WriteLine("a value is greater then b");
+                Console.WriteLine("{0} is greater then {1}",a,b);
             }
             else
             {
-                Console.WriteLine("a value is less then b");
+                Console.WriteLine("{0} is less then {1}",a,b);
             }
         }
         private static void elseifs()
@@ -50,15 +50,15 @@ namespace contitionalstatements
             int b = Convert.ToInt32(Console.ReadLine());
             if (a > b)
             {
-                Console.WriteLine("a value is greater then b");
+                Console.WriteLine("{0} is greater then {1}",a,b);
             }
             else if(a<b)
             {
-                Console.WriteLine("a value is less then b");
+                Console.WriteLine("{0} is less then {1}",a,b);
             }
             else
             {
-                Console.WriteLine("a is equal to b");
+                Console.WriteLine("{0} is equal to {1}",a,b);
 
             }
 
